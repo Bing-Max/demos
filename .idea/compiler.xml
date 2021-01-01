@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rqbbitmq_springboot" />
+        <module name="redis_demo02" />
+        <module name="redis_demo01" />
+        <module name="rabbitmq_springboot" />
+        <module name="rabbitmq-demo1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbitmq-demo" target="1.8" />
+      <module name="rabbitmq-demo1" target="1.8" />
+      <module name="rabbitmq_springboot" target="1.8" />
+      <module name="redis_demo01" target="1.8" />
+      <module name="redis_demo02" target="1.8" />
+      <module name="rqbbitmq_springboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbitmq-demo" options="-parameters" />
+      <module name="rabbitmq_springboot" options="-parameters" />
+      <module name="redis_demo01" options="-parameters" />
+      <module name="redis_demo02" options="-parameters" />
+      <module name="rqbbitmq_springboot" options="-parameters" />
+    </option>
+  </component>
+</project>
